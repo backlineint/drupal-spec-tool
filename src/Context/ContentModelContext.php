@@ -179,6 +179,9 @@ class ContentModelContext extends ContextBase {
       'node',
       'paragraph',
       'taxonomy_term',
+      'commerce_product',
+      'commerce_product_variation',
+      'commerce_product_attribute_value',
     ];
     $entity_types = [];
     foreach ($ids as $id) {
